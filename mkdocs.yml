@@ -1,0 +1,66 @@
+site_name: Wekan
+site_description: 'Wekan unofficial documentation'
+site_url: 'https://soohwa.github.io/wekan-doc/'
+repo_url: 'https://github.com/soohwa/wekan-doc'
+
+nav:
+    - 'Home': index.md
+    - 'Installation':
+        - 'Index': installation/index.md
+        - 'Devuan': installation/devuan.md
+        - 'Docker': installation/docker.md
+        - 'Docker Compose': installation/docker-compose.md
+    - 'Administration':
+        - 'Index': api/index.md
+        - 'Configuration':
+            - 'IFTTT': api/ifttt.md
+            - 'REST Api': https://soohwa.github.io/wekan-doc/assets/html/wekan.html
+            - 'WebHook': api/webhook.md
+        - 'Backup / Restore':
+            - 'Devuan': backup/devuan.md
+            - 'Docker': backup/docker.md
+    - 'Developpement':
+        - 'Index': build/index.md
+        - 'Building':
+            - 'Devuan': build/devuan.md
+        - 'Translations': build/translations.md
+
+theme:
+  name: 'material'
+  include_sidebar: false
+  language: 'en'
+#   palette:
+    # primary: 'green'
+    # accent: 'pink'
+  feature:
+    tabs: true
+
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/wekan/wekan'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
