@@ -4,7 +4,7 @@
     OFT Packages = Only For Testing Packages : This packages are not suitable for production.
 
 !!! info
-    This is not a procedure to build the debian directly from source. This script downloads the official release [tarball](https://releases.wekan.team/) so you can then build yourself the debian package for the following operating systems:
+    You can then build yourself the debian package for the following operating systems:
 
     * [Debian Wheezy 7 64 bit](https://www.debian.org/)
     * [Devuan Jessie 1 64 bit](https://devuan.org/)
@@ -25,18 +25,14 @@
 
 * [Docker](https://docs.docker.com/install/) must be installed.
 
-## 2. Build the docker image
+## 2. Build with Docker
 
 * Clone this repository: `git clone https://github.com/soohwa/wekan-deb.git && cd wekan-deb`
-* Build the image: `make image`
 * Build the debian package: `make deb`
 * Clean the build repository: `make clean`
-* You can do that in one command: `make image deb clean`
-* The wekan debian package is created inside the build folder.
+* The wekan debian package is created inside the `build` folder.
 
 ## 3. Release number configuration
 
-* Nodejs: `NODE_RELEASE` in `Dockerfile` (do `make image` after the change)
-* AppImage: `APPIMAGE_RELEASE` in `Dockerfile` (do `make image` after the change)
-* Wekan: `wekan-release` in `Makefile` (do `make deb` after the change)
-
+* Nodejs: `NODE_RELEASE` in `Dockerfile-BuildPackage` (do `make image` after the change)
+* AppImage: `APPIMAGE_RELEASE` in `Dockerfile-BuildPackage` (do `make image` after the change)
