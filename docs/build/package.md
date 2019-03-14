@@ -30,7 +30,7 @@
 * Clone this repository: `git clone https://github.com/soohwa/wekan-deb.git && cd wekan-deb`
 * Build the debian package: `make deb`
 * Clean the build repository: `make clean`
-* The wekan debian package is created inside the `build` folder.
+* After the build, you can find inside the `build` folder the wekan debian package
 
 ## 3. Release number configuration
 
