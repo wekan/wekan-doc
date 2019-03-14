@@ -22,8 +22,8 @@ nav:
     - 'Developpement':
         - 'Index': build/index.md
         - 'Building':
-            - 'Devuan': build/devuan.md
-            - 'Docker': build/docker.md
+            - 'Package': build/package.md
+            - 'Bundle': build/bundle.md
         - 'Translations': build/translations.md
 
 theme:
