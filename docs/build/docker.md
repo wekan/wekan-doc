@@ -7,7 +7,7 @@
 ## 2. Build with Docker
 
 * Clone this repository: `git clone https://github.com/soohwa/wekan-deb.git && cd wekan-deb`
-* Build the debian package: `make bundle`
+* Build the wekan bundle: `make bundle`
 * Inside the `dist` folder:
     * Wekan bundle: `dist/wekan.tar.gz`
     * Wekan REST API HTML documentation: `dist/wekan.html`
