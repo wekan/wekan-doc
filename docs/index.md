@@ -6,6 +6,6 @@
 
 * [Installation Guides](installation/index.md)
 * [Administraion Guides](administration/index.md)
-* [Features Guides](features/index.md)
+* [Features Guides](feature/index.md)
 * [Administration Guides](api/index.md)
 * [Developer Guides](build/index.md)
