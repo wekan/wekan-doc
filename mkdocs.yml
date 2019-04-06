@@ -1,7 +1,7 @@
 site_name: Wekan
 site_description: 'Wekan unofficial documentation'
 site_url: 'https://wekan-doc.readthedocs.io/en/latest/'
-repo_url: 'https://wekan-doc.readthedocs.io/en/latest/
+repo_url: 'https://wekan-doc.readthedocs.io/en/latest'
 
 nav:
     - 'Home': index.md
