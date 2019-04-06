@@ -30,19 +30,28 @@ nav:
             - 'Bundle': build/bundle.md
         - 'Translations': build/translations.md
 
+# Configuration
 theme:
-  name: 'material'
-  include_sidebar: false
+  name: 'readthedocs'
   language: 'en'
-#   palette:
-    # primary: 'green'
-    # accent: 'pink'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'duplicatilogo.png'
+  favicon: 'favicon.ico'
   feature:
-    tabs: true
+    tabs: false
 
 extra:
   manifest: 'manifest.webmanifest'
   social:
+    - type: 'github'
+      link: 'https://github.com/wekan/wekan'
+    - type: 'translation'
+      link: 'https://www.transifex.com/wekan/wekan/dashboard'
     - type: 'github'
       link: 'https://github.com/wekan/wekan'
 
