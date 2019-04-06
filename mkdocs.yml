@@ -13,12 +13,15 @@ nav:
     - 'Administration':
         - 'Index': api/index.md
         - 'Configuration':
-            - 'IFTTT': api/ifttt.md
             - 'REST Api': https://soohwa.github.io/wekan-doc/assets/html/wekan.html
             - 'WebHook': api/webhook.md
+            - 'Adding Users': administration/addUsers.md
         - 'Backup / Restore':
             - 'Devuan': backup/devuan.md
             - 'Docker': backup/docker.md
+    - 'Features':
+        - 'IFTTT': feature/customFields.md
+        - 'IFTTT': feature/ifttt.md
     - 'Developpement':
         - 'Index': build/index.md
         - 'Building':
