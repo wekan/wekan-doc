@@ -5,5 +5,7 @@
 ![Wekan](assets/images/wekan-logo.svg)
 
 * [Installation Guides](installation/index.md)
+* [Administraion Guides](administration/index.md)
+* [Features Guides](features/index.md)
 * [Administration Guides](api/index.md)
 * [Developer Guides](build/index.md)
