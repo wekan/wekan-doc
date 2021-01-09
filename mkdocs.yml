@@ -1,5 +1,5 @@
 site_name: Wekan
-site_description: 'Wekan unofficial documentation'
+site_description: 'Wekan documentation'
 site_url: 'https://wekan-doc.readthedocs.io/en/latest/'
 repo_url: 'https://wekan-doc.readthedocs.io/en/latest'
 
@@ -13,7 +13,7 @@ nav:
     - 'Administration':
         - 'Index': api/index.md
         - 'Configuration':
-            - 'REST Api': https://soohwa.github.io/wekan-doc/assets/html/wekan.html
+            - 'REST Api': https://wekan.github.io/wekan-doc/assets/html/wekan.html
             - 'WebHook': api/webhook.md
             - 'Adding Users': administration/addUsers.md
         - 'Backup / Restore':
