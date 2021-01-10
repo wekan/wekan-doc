@@ -1,5 +1,5 @@
-# Administraions guide
+# Administration guide
 
-* Administraion
+* Administration
     * [Add Users](addUsers.md)
     
