@@ -22,9 +22,9 @@ It is Free and Open Source software (FOSS) and is being developed under MIT lice
 ## Community Support & Contributions
 Need help? Want to get involved by contributing bug reports, feature requests or code?
 
-* Forum: https://community.vanila.io/wekan
-* Bug Tracker: https://github.com/wekan/wekan/issues
-* Translations: https://www.transifex.com/wekan/wekan
+* Forum: [community.vanila.io/wekan](https://community.vanila.io/wekan)
+* Bug Tracker: [github.com/wekan/wekan/issues](https://github.com/wekan/wekan/issues)
+* Translations: [transifex.com/wekan/wekan](https://www.transifex.com/wekan/wekan)
 
 ## Commercial Support
 * https://wekan.team/commercial-support/
