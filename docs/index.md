@@ -8,7 +8,9 @@ It is Free and Open Source software (FOSS) and is being developed under MIT lice
 
 ## Guides
 * [User Guides](user/index.md)
+  * [Board Settings, Administration and Customization](user/Board-Administration.md)
 * [Administration Guides](administration/index.md)
+  * [Add Users](administration/addUsers.md)
 * [Installation Guides](installation/index.md)
 * [Features Guides](feature/index.md)
 * [API Documentation](api/index.md)
