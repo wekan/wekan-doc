@@ -13,6 +13,7 @@ Board settings can only be changed by **board admins** (not to be confused with 
 * Lists (add, rename, remove) and swimlanes (add, rename, remove)
 * Board theme ("color")
 * Board settings (rules, fields, card settings, subtask settings etc.)
+
 ![Board settings visible for board admins](board-settings.jpg)
 
 If you want to simplify the cards on your board — e. g. you want your cards to have no more than a title, an assignee, labels, a due date and the comment section — you can untick some of the boxes in *board settings > card settings*:
